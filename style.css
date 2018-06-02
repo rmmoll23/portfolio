@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    width: -webkit-fill-available;
+    padding: 15px 25px 15px 25px;
+    top: 0;
+}
+
+#heroImg {
+    margin-top: 75px;
+    background-image: url("https://www.barcelonasailingcharter.com/uploads/4/2/1/9/42196737/barcelona-sunset_orig.jpg");
+    color: white;
+    height: 500px;
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#quote {
+    position: absolute;
+    bottom: 10%;
+}
+
+#quote h2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#bioImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    padding: 10px 30px;
+    float: right;
+}
+
+p {
+    padding: 10px;
+}
+
+.navList {
+    float: right;
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+#homeIcon {
+    display: inline;
+    font-family: 'Domine', serif;
+}
+
+#homeIcon a {
+    color: black;
+}
+
+footer ul {
+    text-align: center;
+}
+
+i {
+    font-size: 50px;
+}
+
+.project {
+    width: 40%;
+}
+
+main h2 {
+    padding: 7px;
+    background-color: coral;
+    color: white;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.containers {
+    border: solid 2px gray;
+    border-radius: 3px;
+    height: auto;
+}
+
+#aboutMeContainer {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .navList {
+        margin-top: 10px;
+        float: none;
+        padding-left: 0;
+    }
+
+    #quote h2 {
+        font-size: 20px;
+    }
+
+    li {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    #heroImg {
+        margin-top: 75px;
+        height: 400px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+  }
