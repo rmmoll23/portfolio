@@ -194,6 +194,10 @@ main h2 {
 
 @media only screen and (max-width: 500px) {
 
+    .screenshot {
+        height: 225px;
+    }
+
     #bioImg {
         display: block;
         width: 90%;
