@@ -147,6 +147,11 @@ i {
 .screenshot {
     height: 400px;
     width: 90%;
+    transition: transform .2s; /* Animation */
+}
+
+.screenshot:hover {
+    transform: scale(1.07); 
 }
 
 main h2 {
