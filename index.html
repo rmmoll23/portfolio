@@ -9,33 +9,40 @@
         <link href="https://fonts.googleapis.com/css?family=Domine:700|Source+Sans+Pro" rel="stylesheet">
        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 <body>
  <nav role="navigation">
+    <section class="wrapper">
         <h1 id="homeIcon"><a href="#heroImg">Ryan Moll</a></h1>
         <ul class="navList">
             <li><a href="#aboutMe">About me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#connect">Connect</a></li>
-        </ul>   
+        </ul> 
+    </section>  
  </nav>
     <div id="heroImg">
-        <div id="quote">
-            <h2>"I can’t change the direction of the wind, but I can adjust my sails to always reach my destination." —Jimmy Dean</h2> 
-        </div>
+        <section class="wrapper">
+            <div id="quote">
+                <h2><a id="aboutMe"></a>"I can’t change the direction of the wind, but I can adjust my sails to always reach my destination." —Jimmy Dean</h2> 
+            </div>
+        </section>
     </div>
-<main role="main">    
-    <div id="aboutMe">    
+<main role="main">
+  <section class="wrapper">
+    <div>    
             <h2>About Me</h2>
             <div id="aboutMeContainer" class="containers">
                 <img id="bioImg" src="./images/IMG_8067.jpg">
-                <p id="bioText">Hey there, I'm Ryan.  I'm a former collegiate athlete with a Master's in Athletic Administration turned PROGRAMMER! I am a graduate from Thinkful's Full-Stack Web Development Bootcamp with a passion for problem-solving. I love to learn, take on challenges, and use my skills to create a variety of projects. The computer is my canvas and the keyboard is my paintbrush!  </p>
+                <p id="bioText">Hey there, I'm Ryan.  I'm a former collegiate athlete with a Master's in Athletic Administration turned PROGRAMMER! I am a graduate from Thinkful's Full-Stack Web Development Bootcamp with a passion for problem-solving. I love to learn, take on challenges, and use my skills to create a variety of projects. The computer is my canvas and the keyboard is my paintbrush!</p>
+                <a id="projects"></a>
             </div>
 
     </div>
 
-    <div id="projects">
+    <div>
             <h2>Projects</h2>
             <div class="containers">
                 <div class="project"></div>
@@ -44,10 +51,11 @@
                 <div class="project"></div>
                 <div class="project"></div>
             </div>
+            <a id="skills"></a>
     </div>
 
 
-    <div id="skills">
+    <div>
             <h2>Skills</h2>
             <div class="containers">
                 <ul class="skillsList">
@@ -64,15 +72,27 @@
                     <li><i class="devicon-heroku-original-wordmark"></i></li>
                     <li><i class="devicon-mocha-plain"></i></li>
                 </ul>
+                <a id="connect"></a>
             </div>
     </div>
 
- <footer role="contentinfo" id="connect">
+    <div>
+            <h2>Connect</h2>
+            <div class="containers">
+                <p id="message">Like my work?  Contact me below!</p>
+                <ul id="connectLinks">
+                    <li><a href="mailto:rmmoll23@gmail.com?Subject=Hello" title="Send me an email"><i class="fa fa-envelope" style="font-size:48px;color:coral"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ryan-moll-a876ba70/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:coral"></i></a></li>
+                    <li><a href="https://github.com/rmmoll23" title="Check out my code on GitHub" target="_blank"><i class="fa fa-github" style="font-size:48px;color:coral"></i></a></li>
+                </ul>      
+            </div>
+    </div>
+  </section> 
+</main>
+
+ <footer role="contentinfo">
     <ul>
         <li><p id="copyright">© 2018 Ryan Moll</p></li>
-        <li><a href="mailto:rmmoll23@gmail.com?Subject=Hello" title="Send me an email">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/ryan-moll-a876ba70/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/rmmoll23" title="Check out my code on GitHub" target="_blank">GitHub</a></li>
     </ul>      
  </footer>
  <script

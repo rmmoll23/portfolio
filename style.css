@@ -3,9 +3,9 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-main {
+.wrapper {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 ul {
@@ -14,6 +14,10 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
     color: coral;
 }
 
@@ -22,7 +26,7 @@ nav {
     position: fixed;
     z-index: 1000;
     width: -webkit-fill-available;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 0px;
     top: 0;
 }
 
@@ -30,7 +34,7 @@ nav {
     margin-top: 75px;
     background-image: url("https://www.barcelonasailingcharter.com/uploads/4/2/1/9/42196737/barcelona-sunset_orig.jpg");
     color: white;
-    height: 500px;
+    height: 650px;
     position: relative;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -39,25 +43,27 @@ nav {
 }
 
 #quote {
-    position: absolute;
-    bottom: 10%;
+    padding-top: 500px;
 }
 
 #quote h2 {
-    width: 80%;
-    margin: 0 auto;
+    width: auto;
+    
 }
 
 #bioImg {
-    height: 200px;
-    width: 200px;
-    border-radius: 20%;
-    padding: 10px 30px;
-    float: right;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: top;
+    margin: 10px;
+    width: 30%;
 }
 
 p {
     padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
 }
 
 .navList {
@@ -73,6 +79,7 @@ li {
 #homeIcon {
     display: inline;
     font-family: 'Domine', serif;
+    font-size: 25px;
 }
 
 #homeIcon a {
@@ -93,8 +100,7 @@ i {
 
 main h2 {
     padding: 7px;
-    background-color: coral;
-    color: white;
+    color: darkred;
     width: max-content;
     border-radius: 5px;
 }
@@ -105,12 +111,39 @@ main h2 {
     height: auto;
 }
 
-#aboutMeContainer {
-    margin: 0 auto;
-    max-width: 550px;
+#connectLinks {
+    text-align: center;
+    padding: inherit;
+}
+
+#connectLinks li {
+    padding: 0px 15px;
+}
+
+#message {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    width: auto;
 }
 
 @media only screen and (max-width: 500px) {
+
+    #bioImg {
+        display: block;
+        width: 90%;
+    }
+    
+    p {
+        display: block;
+        width: 90%;
+    }
+
+    #quote {
+        padding-top: 250px;
+    }
 
     .navList {
         margin-top: 10px;
@@ -130,7 +163,6 @@ main h2 {
     #heroImg {
         margin-top: 75px;
         height: 400px;
-        position: relative;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
