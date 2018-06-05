@@ -42,7 +42,7 @@ nav {
     background-color: white;
     position: fixed;
     z-index: 1000;
-    width: -webkit-fill-available;
+    width: 100%;
     padding: 15px 0px;
     top: 0;
 }
