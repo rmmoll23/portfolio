@@ -158,7 +158,7 @@ i {
 main h2 {
     padding: 7px;
     color: darkred;
-    width: max-content;
+    width: 200px;
     border-radius: 5px;
 }
 
